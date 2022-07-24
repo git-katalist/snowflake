@@ -1,15 +1,27 @@
-Info 0    [15:52:51.185] Starting TS Server
-Info 1    [15:52:51.185] Version: 4.7.4
-Info 2    [15:52:51.185] Arguments: /usr/bin/node /home/tsotetsi/Projects/Code/Sandbox/snowflake/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/b96fa666dd056bf848d8c04856bb1c2b/tscancellation*
-Info 3    [15:52:51.185] Platform: linux NodeVersion: 18 CaseSensitive: true
-Info 4    [15:52:51.185] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
-Info 5    [15:52:51.195] Format host information updated
-Info 6    [15:52:51.202] Search path: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages
-Info 7    [15:52:51.202] For info: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js :: Config file name: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 8    [15:52:51.202] Creating configuration project /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 9    [15:52:51.215] Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json : {
+Info 0    [16:17:14.628] Starting TS Server
+Info 1    [16:17:14.628] Version: 4.7.4
+Info 2    [16:17:14.628] Arguments: /usr/bin/node /home/tsotetsi/Projects/Code/Sandbox/snowflake/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/9545c43b140482db7377be546efa3d2b/tscancellation*
+Info 3    [16:17:14.628] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [16:17:14.628] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [16:17:14.638] Format host information updated
+Info 6    [16:17:14.646] Search path: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages
+Info 7    [16:17:14.647] For info: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js :: Config file name: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 8    [16:17:14.647] Creating configuration project /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 9    [16:17:14.667] Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json : {
  "rootNames": [
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/env-config.js",
   "/home/tsotetsi/Projects/Code/Sandbox/snowflake/next.config.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/components/Meta.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/Fcvsns93ju8_hn1oaOD7-/_buildManifest.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/Fcvsns93ju8_hn1oaOD7-/_ssgManifest.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/651.412a32fde78b36e0.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/framework-7dc8a65f4a0cda33.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/main-f2b58b1bd001d168.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/polyfills-c67a75d1b6f99dc8.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/webpack-3c2eeb2cbb101045.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/pages/_app-b91252a19d4bde3d.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/pages/_error-b53b8f599aff85eb.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/out/_next/static/chunks/pages/index-13c79716836d77d4.js",
   "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js",
   "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js",
   "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js",
@@ -39,114 +51,388 @@ Info 9    [15:52:51.215] Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/
   "configFilePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json"
  }
 }
-Info 10   [15:52:51.321] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 11   [15:52:52.352] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1030.297334998846ms
-Info 12   [15:52:52.352] Project '/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json' (Configured)
-Info 13   [15:52:52.352] 	Files (190)
+Info 10   [16:17:14.738] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 11   [16:17:16.079] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1339.9503590017557ms
+Info 12   [16:17:16.079] Project '/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json' (Configured)
+Info 13   [16:17:16.079] 	Files (177)
 
-Info 14   [15:52:52.352] -----------------------------------------------
-Info 15   [15:52:52.359] AutoImportProviderProject: found 1 root files in 1 dependencies in 5.376127000898123 ms
-Info 16   [15:52:52.360] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
-Info 17   [15:52:52.365] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4.998795999214053ms
-Info 18   [15:52:52.365] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 19   [15:52:52.365] 	Files (6)
+Info 14   [16:17:16.079] -----------------------------------------------
+Info 15   [16:17:16.085] AutoImportProviderProject: found 2 root files in 2 dependencies in 4.387934999540448 ms
+Info 16   [16:17:16.086] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [16:17:16.137] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 50.8360799998045ms
+Info 18   [16:17:16.137] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [16:17:16.137] 	Files (86)
 
-Info 20   [15:52:52.365] -----------------------------------------------
-Info 21   [15:52:53.411] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-170307.log 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Wild card directory
-Info 22   [15:52:53.412] Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-170307.log
-Info 23   [15:52:53.412] Elapsed:: 1.010802999138832ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-170307.log 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Wild card directory
-Info 24   [15:52:58.591] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 25   [15:52:58.591] Elapsed:: 0.17613600008189678ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 26   [15:52:58.591] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 27   [15:52:58.591] Elapsed:: 0.01941700093448162ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 28   [15:53:00.687] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 29   [15:53:00.768] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 80.88023700006306ms
-Info 30   [15:53:00.768] Project '/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json' (Configured)
-Info 31   [15:53:00.768] 	Files (196)
+Info 20   [16:17:16.137] -----------------------------------------------
+Info 21   [16:17:16.629] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 22   [16:17:16.683] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 54.0224930010736ms
+Info 23   [16:17:16.683] Project '/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json' (Configured)
+Info 24   [16:17:16.683] 	Files (208)
 
-Info 32   [15:53:00.768] -----------------------------------------------
-Info 33   [15:53:00.768] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
-Info 34   [15:53:00.768] 	Files (6)
+Info 25   [16:17:16.683] -----------------------------------------------
+Info 26   [16:17:16.683] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 27   [16:17:16.683] 	Files (86)
 
-Info 35   [15:53:00.768] -----------------------------------------------
-Info 36   [15:53:01.305] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 37   [15:53:01.305] Elapsed:: 0.0975940003991127ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 38   [15:53:01.305] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 39   [15:53:01.306] Elapsed:: 0.09874100051820278ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 40   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 41   [15:53:01.306] Elapsed:: 0.07106900028884411ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 42   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 43   [15:53:01.306] Elapsed:: 0.025547999888658524ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 44   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 45   [15:53:01.306] Elapsed:: 0.3019719999283552ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 46   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 47   [15:53:01.306] Elapsed:: 0.06431400030851364ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
-Info 48   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 49   [15:53:01.307] Elapsed:: 0.21066300012171268ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 50   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 51   [15:53:01.307] Elapsed:: 0.028020000085234642ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 52   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 53   [15:53:01.307] Elapsed:: 0.01862100139260292ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 54   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 55   [15:53:01.307] Elapsed:: 0.015272000804543495ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 56   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 57   [15:53:01.307] Elapsed:: 0.02241400070488453ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 58   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 59   [15:53:01.307] Elapsed:: 0.015528999269008636ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
-Info 60   [15:53:02.937] Before ensureProjectForOpenFiles:
-Info 61   [15:53:02.938] After ensureProjectForOpenFiles:
-Info 62   [15:53:02.938] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
-Info 63   [15:53:53.230] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 500 undefined WatchType: Closed Script info
-Info 64   [15:53:53.231] Elapsed:: 0.5845229998230934ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 500 undefined WatchType: Closed Script info
-Info 65   [15:53:53.482] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 66   [15:53:53.484] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Not Elapsed: 2.4635680001229048ms
-Info 67   [15:53:55.732] Before ensureProjectForOpenFiles:
-Info 68   [15:53:55.732] After ensureProjectForOpenFiles:
-Info 69   [15:53:55.732] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
-Info 70   [15:54:05.237] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 500 undefined WatchType: Closed Script info
-Info 71   [15:54:05.237] Elapsed:: 0.11315099895000458ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 500 undefined WatchType: Closed Script info
-Info 72   [15:54:05.487] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 73   [15:54:05.488] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Not Elapsed: 0.7509369999170303ms
-Info 74   [15:54:07.738] Before ensureProjectForOpenFiles:
-Info 75   [15:54:07.738] After ensureProjectForOpenFiles:
-Info 76   [15:54:07.738] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
-Info 77   [15:54:15.240] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 2000 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Config file
-Info 78   [15:54:15.241] Elapsed:: 0.9535949993878603ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 2000 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Config file
-Info 79   [15:54:15.492] Reloading configured project /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 80   [15:54:15.498] Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json : {
- "rootNames": [
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/next.config.js",
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js",
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js",
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js",
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/api/hello.js",
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/styles/Global.js",
-  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/styles/Theme.js"
- ],
- "options": {
-  "allowJs": true,
-  "maxNodeModuleJsDepth": 2,
-  "allowSyntheticDefaultImports": true,
-  "skipLibCheck": true,
-  "noEmit": true,
-  "baseUrl": "/home/tsotetsi/Projects/Code/Sandbox/snowflake",
-  "paths": {
-   "@Components/*": [
-    "./components/*"
-   ],
-   "Recipes/*": [
-    "./pages/noodles/recipes/*"
-   ],
-   "Styles/*": [
-    "./Styles/*"
-   ]
-  },
-  "pathsBasePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake",
-  "configFilePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json"
- }
-}
-Info 81   [15:54:15.500] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
-Info 82   [15:54:15.500] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Not Elapsed: 0.4282230008393526ms
-Info 83   [15:54:17.742] Before ensureProjectForOpenFiles:
-Info 84   [15:54:17.743] After ensureProjectForOpenFiles:
-Info 85   [15:54:17.743] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
+Info 28   [16:17:16.683] -----------------------------------------------
+Info 29   [16:17:17.173] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-201177.log 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Wild card directory
+Info 30   [16:17:17.174] Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-201177.log
+Info 31   [16:17:17.174] Elapsed:: 0.9884730000048876ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-201177.log 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Wild card directory
+Info 32   [16:17:18.880] Before ensureProjectForOpenFiles:
+Info 33   [16:17:18.880] After ensureProjectForOpenFiles:
+Info 34   [16:17:18.880] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
+Info 35   [16:17:27.663] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 36   [16:17:27.685] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Completely Elapsed: 21.68057700060308ms
+Info 37   [16:17:27.685] Different program with same set of files
+Info 38   [16:17:29.206] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 39   [16:17:29.220] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Completely Elapsed: 14.008093999698758ms
+Info 40   [16:17:29.220] Different program with same set of files
+Info 41   [16:17:29.492] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 42   [16:17:29.507] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Completely Elapsed: 15.486636999994516ms
+Info 43   [16:17:29.507] Different program with same set of files
+Info 44   [16:17:29.859] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 45   [16:17:29.868] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 6 structureChanged: false structureIsReused:: Completely Elapsed: 9.101998001337051ms
+Info 46   [16:17:29.868] Different program with same set of files
+Info 47   [16:17:30.738] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 48   [16:17:30.748] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 7 structureChanged: false structureIsReused:: Completely Elapsed: 9.568862000480294ms
+Info 49   [16:17:30.748] Different program with same set of files
+Info 50   [16:17:30.784] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 51   [16:17:30.793] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 8 structureChanged: false structureIsReused:: Completely Elapsed: 8.78005599975586ms
+Info 52   [16:17:30.793] Different program with same set of files
+Info 53   [16:17:31.137] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 54   [16:17:31.150] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 9 structureChanged: false structureIsReused:: Completely Elapsed: 12.99732500128448ms
+Info 55   [16:17:31.150] Different program with same set of files
+Info 56   [16:17:31.513] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 57   [16:17:31.524] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 10 structureChanged: false structureIsReused:: Completely Elapsed: 10.914092000573874ms
+Info 58   [16:17:31.524] Different program with same set of files
+Info 59   [16:17:31.527] getCompletionData: Get current token: 0.01476999931037426
+Info 60   [16:17:31.527] getCompletionData: Is inside comment: 0.004382999613881111
+Info 61   [16:17:31.527] getCompletionData: Get previous token: 0.048204999417066574
+Info 62   [16:17:31.527] getCompletionsAtPosition: isCompletionListBlocker: 0.2981920000165701
+Info 63   [16:17:31.527] Returning an empty list because completion was requested in an invalid position.
+Info 64   [16:17:31.566] getCompletionData: Get current token: 0.02871599979698658
+Info 65   [16:17:31.566] getCompletionData: Is inside comment: 0.004812000319361687
+Info 66   [16:17:31.566] getCompletionData: Get previous token: 0.031088998541235924
+Info 67   [16:17:31.566] getCompletionsAtPosition: isCompletionListBlocker: 0.022687001153826714
+Info 68   [16:17:31.566] Returning an empty list because completion was requested in an invalid position.
+Info 69   [16:17:31.566] getCompletionData: Get current token: 0.013495000079274178
+Info 70   [16:17:31.566] getCompletionData: Is inside comment: 0.0037839990109205246
+Info 71   [16:17:31.566] getCompletionData: Get previous token: 0.03394400142133236
+Info 72   [16:17:31.567] getCompletionsAtPosition: isCompletionListBlocker: 0.028029000386595726
+Info 73   [16:17:31.567] Returning an empty list because completion was requested in an invalid position.
+Info 74   [16:17:31.567] getCompletionData: Get current token: 0.009346000850200653
+Info 75   [16:17:31.567] getCompletionData: Is inside comment: 0.001894000917673111
+Info 76   [16:17:31.567] getCompletionData: Get previous token: 0.01737000048160553
+Info 77   [16:17:31.567] getCompletionsAtPosition: isCompletionListBlocker: 0.00611099973320961
+Info 78   [16:17:31.567] Returning an empty list because completion was requested in an invalid position.
+Info 79   [16:17:32.284] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 80   [16:17:32.296] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 11 structureChanged: false structureIsReused:: Completely Elapsed: 12.642358999699354ms
+Info 81   [16:17:32.296] Different program with same set of files
+Info 82   [16:17:33.263] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 83   [16:17:33.275] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 12 structureChanged: false structureIsReused:: Completely Elapsed: 11.218923000618815ms
+Info 84   [16:17:33.275] Different program with same set of files
+Info 85   [16:17:33.312] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 86   [16:17:33.315] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 13 structureChanged: false structureIsReused:: Completely Elapsed: 3.3499699998646975ms
+Info 87   [16:17:33.315] Different program with same set of files
+Info 88   [16:17:33.644] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 89   [16:17:33.654] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 14 structureChanged: false structureIsReused:: Completely Elapsed: 9.309506000950933ms
+Info 90   [16:17:33.654] Different program with same set of files
+Info 91   [16:17:34.536] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 92   [16:17:34.543] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 15 structureChanged: false structureIsReused:: Completely Elapsed: 6.759815998375416ms
+Info 93   [16:17:34.543] Different program with same set of files
+Info 94   [16:17:34.544] getCompletionData: Get current token: 0.010850999504327774
+Info 95   [16:17:34.544] getCompletionData: Is inside comment: 0.004417998716235161
+Info 96   [16:17:34.544] getCompletionData: Get previous token: 0.023923998698592186
+Info 97   [16:17:34.544] getCompletionsAtPosition: isCompletionListBlocker: 0.04714700020849705
+Info 98   [16:17:34.544] Returning an empty list because completion was requested in an invalid position.
+Info 99   [16:17:34.575] getCompletionData: Get current token: 0.008941000327467918
+Info 100  [16:17:34.575] getCompletionData: Is inside comment: 0.0025970004498958588
+Info 101  [16:17:34.575] getCompletionData: Get previous token: 0.018510999158024788
+Info 102  [16:17:34.575] getCompletionsAtPosition: isCompletionListBlocker: 0.018942000344395638
+Info 103  [16:17:34.575] Returning an empty list because completion was requested in an invalid position.
+Info 104  [16:17:34.575] getCompletionData: Get current token: 0.011998001486063004
+Info 105  [16:17:34.575] getCompletionData: Is inside comment: 0.004099000245332718
+Info 106  [16:17:34.575] getCompletionData: Get previous token: 0.029941000044345856
+Info 107  [16:17:34.575] getCompletionsAtPosition: isCompletionListBlocker: 0.01331000030040741
+Info 108  [16:17:34.575] Returning an empty list because completion was requested in an invalid position.
+Info 109  [16:17:34.575] getCompletionData: Get current token: 0.012133000418543816
+Info 110  [16:17:34.575] getCompletionData: Is inside comment: 0.002418000251054764
+Info 111  [16:17:34.575] getCompletionData: Get previous token: 0.04097899980843067
+Info 112  [16:17:34.576] getCompletionsAtPosition: isCompletionListBlocker: 0.008712999522686005
+Info 113  [16:17:34.576] Returning an empty list because completion was requested in an invalid position.
+Info 114  [16:17:34.778] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 115  [16:17:34.795] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 16 structureChanged: false structureIsReused:: Completely Elapsed: 16.856597999110818ms
+Info 116  [16:17:34.795] Different program with same set of files
+Info 117  [16:17:35.768] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 118  [16:17:35.775] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 17 structureChanged: false structureIsReused:: Completely Elapsed: 6.85903700068593ms
+Info 119  [16:17:35.776] Different program with same set of files
+Info 120  [16:17:36.066] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 121  [16:17:36.076] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 18 structureChanged: false structureIsReused:: Completely Elapsed: 9.903674999251962ms
+Info 122  [16:17:36.076] Different program with same set of files
+Info 123  [16:17:36.538] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 124  [16:17:36.544] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 19 structureChanged: false structureIsReused:: Completely Elapsed: 6.04292800091207ms
+Info 125  [16:17:36.544] Different program with same set of files
+Info 126  [16:17:36.545] getCompletionData: Get current token: 0.011040998622775078
+Info 127  [16:17:36.545] getCompletionData: Is inside comment: 0.0029600001871585846
+Info 128  [16:17:36.545] getCompletionData: Get previous token: 0.10797199979424477
+Info 129  [16:17:36.545] getCompletionsAtPosition: isCompletionListBlocker: 0.027573000639677048
+Info 130  [16:17:36.545] Returning an empty list because completion was requested in an invalid position.
+Info 131  [16:17:36.574] getCompletionData: Get current token: 0.0094200000166893
+Info 132  [16:17:36.574] getCompletionData: Is inside comment: 0.0024650003761053085
+Info 133  [16:17:36.574] getCompletionData: Get previous token: 0.014971999451518059
+Info 134  [16:17:36.574] getCompletionsAtPosition: isCompletionListBlocker: 0.008898001164197922
+Info 135  [16:17:36.574] Returning an empty list because completion was requested in an invalid position.
+Info 136  [16:17:36.575] getCompletionData: Get current token: 0.009626001119613647
+Info 137  [16:17:36.575] getCompletionData: Is inside comment: 0.00552699901163578
+Info 138  [16:17:36.575] getCompletionData: Get previous token: 0.01643500104546547
+Info 139  [16:17:36.575] getCompletionsAtPosition: isCompletionListBlocker: 0.007995998486876488
+Info 140  [16:17:36.575] Returning an empty list because completion was requested in an invalid position.
+Info 141  [16:17:36.576] getCompletionData: Get current token: 0.023187000304460526
+Info 142  [16:17:36.576] getCompletionData: Is inside comment: 0.0019170008599758148
+Info 143  [16:17:36.576] getCompletionData: Get previous token: 0.015129998326301575
+Info 144  [16:17:36.577] getCompletionsAtPosition: isCompletionListBlocker: 0.007308999076485634
+Info 145  [16:17:36.577] Returning an empty list because completion was requested in an invalid position.
+Info 146  [16:17:37.115] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 147  [16:17:37.128] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 20 structureChanged: false structureIsReused:: Completely Elapsed: 12.227533999830484ms
+Info 148  [16:17:37.128] Different program with same set of files
+Info 149  [16:17:37.130] getCompletionData: Get current token: 0.030479000881314278
+Info 150  [16:17:37.130] getCompletionData: Is inside comment: 0.0060270000249147415
+Info 151  [16:17:37.130] getCompletionData: Get previous token: 0.056725999340415
+Info 152  [16:17:37.130] getCompletionsAtPosition: isCompletionListBlocker: 0.025729000568389893
+Info 153  [16:17:37.130] Returning an empty list because completion was requested in an invalid position.
+Info 154  [16:17:37.130] getCompletionData: Get current token: 0.03865800052881241
+Info 155  [16:17:37.130] getCompletionData: Is inside comment: 0.008630000054836273
+Info 156  [16:17:37.130] getCompletionData: Get previous token: 0.07249899953603745
+Info 157  [16:17:37.131] getCompletionsAtPosition: isCompletionListBlocker: 0.01749199815094471
+Info 158  [16:17:37.131] Returning an empty list because completion was requested in an invalid position.
+Info 159  [16:17:37.131] getCompletionData: Get current token: 0.022756999358534813
+Info 160  [16:17:37.131] getCompletionData: Is inside comment: 0.004463000223040581
+Info 161  [16:17:37.131] getCompletionData: Get previous token: 0.08310000039637089
+Info 162  [16:17:37.131] getCompletionsAtPosition: isCompletionListBlocker: 0.00913500040769577
+Info 163  [16:17:37.131] Returning an empty list because completion was requested in an invalid position.
+Info 164  [16:17:37.131] getCompletionData: Get current token: 0.016251999884843826
+Info 165  [16:17:37.131] getCompletionData: Is inside comment: 0.002924000844359398
+Info 166  [16:17:37.131] getCompletionData: Get previous token: 0.027627000585198402
+Info 167  [16:17:37.131] getCompletionsAtPosition: isCompletionListBlocker: 0.007323998957872391
+Info 168  [16:17:37.131] Returning an empty list because completion was requested in an invalid position.
+Info 169  [16:17:37.169] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 170  [16:17:37.173] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 21 structureChanged: false structureIsReused:: Completely Elapsed: 3.748786998912692ms
+Info 171  [16:17:37.173] Different program with same set of files
+Info 172  [16:17:37.536] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 173  [16:17:37.545] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 22 structureChanged: false structureIsReused:: Completely Elapsed: 9.229181999340653ms
+Info 174  [16:17:37.545] Different program with same set of files
+Info 175  [16:17:40.544] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 176  [16:17:40.553] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 23 structureChanged: false structureIsReused:: Completely Elapsed: 8.261574998497963ms
+Info 177  [16:17:40.553] Different program with same set of files
+Info 178  [16:17:40.999] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 179  [16:17:41.005] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 24 structureChanged: false structureIsReused:: Completely Elapsed: 5.871632998809218ms
+Info 180  [16:17:41.006] Different program with same set of files
+Info 181  [16:17:41.006] getCompletionData: Get current token: 0.020096998661756516
+Info 182  [16:17:41.006] getCompletionData: Is inside comment: 0.003905000165104866
+Info 183  [16:17:41.007] getCompletionData: Get previous token: 0.044860001653432846
+Info 184  [16:17:41.007] getCompletionsAtPosition: isCompletionListBlocker: 0.017865000292658806
+Info 185  [16:17:41.007] Returning an empty list because completion was requested in an invalid position.
+Info 186  [16:17:41.048] getCompletionData: Get current token: 0.008111998438835144
+Info 187  [16:17:41.048] getCompletionData: Is inside comment: 0.0021180007606744766
+Info 188  [16:17:41.048] getCompletionData: Get previous token: 0.014835000038146973
+Info 189  [16:17:41.048] getCompletionsAtPosition: isCompletionListBlocker: 0.010034000501036644
+Info 190  [16:17:41.048] Returning an empty list because completion was requested in an invalid position.
+Info 191  [16:17:41.049] getCompletionData: Get current token: 0.011584000661969185
+Info 192  [16:17:41.049] getCompletionData: Is inside comment: 0.0017729997634887695
+Info 193  [16:17:41.049] getCompletionData: Get previous token: 0.011871999129652977
+Info 194  [16:17:41.049] getCompletionsAtPosition: isCompletionListBlocker: 0.006486000493168831
+Info 195  [16:17:41.049] Returning an empty list because completion was requested in an invalid position.
+Info 196  [16:17:41.050] getCompletionData: Get current token: 0.006222998723387718
+Info 197  [16:17:41.050] getCompletionData: Is inside comment: 0.0014919992536306381
+Info 198  [16:17:41.050] getCompletionData: Get previous token: 0.010466000065207481
+Info 199  [16:17:41.050] getCompletionsAtPosition: isCompletionListBlocker: 0.006562000140547752
+Info 200  [16:17:41.050] Returning an empty list because completion was requested in an invalid position.
+Info 201  [16:17:41.447] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 202  [16:17:41.457] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 25 structureChanged: false structureIsReused:: Completely Elapsed: 9.037162000313401ms
+Info 203  [16:17:41.457] Different program with same set of files
+Info 204  [16:17:41.848] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 205  [16:17:41.857] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 26 structureChanged: false structureIsReused:: Completely Elapsed: 8.074604999274015ms
+Info 206  [16:17:41.857] Different program with same set of files
+Info 207  [16:17:41.857] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 208  [16:17:41.862] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 27 structureChanged: false structureIsReused:: Completely Elapsed: 5.15858200006187ms
+Info 209  [16:17:41.862] Different program with same set of files
+Info 210  [16:17:42.057] getCompletionData: Get current token: 0.030706999823451042
+Info 211  [16:17:42.057] getCompletionData: Is inside comment: 0.0066999997943639755
+Info 212  [16:17:42.057] getCompletionData: Get previous token: 0.05878699943423271
+Info 213  [16:17:42.057] getCompletionsAtPosition: isCompletionListBlocker: 0.023964999243617058
+Info 214  [16:17:42.057] Returning an empty list because completion was requested in an invalid position.
+Info 215  [16:17:42.067] getCompletionData: Get current token: 0.029179001227021217
+Info 216  [16:17:42.067] getCompletionData: Is inside comment: 0.007041001692414284
+Info 217  [16:17:42.067] getCompletionData: Get previous token: 0.03914500027894974
+Info 218  [16:17:42.068] getCompletionsAtPosition: isCompletionListBlocker: 0.5982370004057884
+Info 219  [16:17:42.068] Returning an empty list because completion was requested in an invalid position.
+Info 220  [16:17:42.071] getCompletionData: Get current token: 0.021597998216748238
+Info 221  [16:17:42.071] getCompletionData: Is inside comment: 0.005990000441670418
+Info 222  [16:17:42.071] getCompletionData: Get previous token: 0.03976899944245815
+Info 223  [16:17:42.071] getCompletionsAtPosition: isCompletionListBlocker: 0.03513299860060215
+Info 224  [16:17:42.071] Returning an empty list because completion was requested in an invalid position.
+Info 225  [16:17:42.074] getCompletionData: Get current token: 0.021640000864863396
+Info 226  [16:17:42.074] getCompletionData: Is inside comment: 0.006278999149799347
+Info 227  [16:17:42.074] getCompletionData: Get previous token: 0.0381850004196167
+Info 228  [16:17:42.074] getCompletionsAtPosition: isCompletionListBlocker: 0.019961999729275703
+Info 229  [16:17:42.074] Returning an empty list because completion was requested in an invalid position.
+Info 230  [16:17:42.571] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 231  [16:17:42.576] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 28 structureChanged: false structureIsReused:: Completely Elapsed: 4.698978001251817ms
+Info 232  [16:17:42.576] Different program with same set of files
+Info 233  [16:17:42.576] getCompletionData: Get current token: 0.008119000121951103
+Info 234  [16:17:42.576] getCompletionData: Is inside comment: 0.0017790012061595917
+Info 235  [16:17:42.576] getCompletionData: Get previous token: 0.014938998967409134
+Info 236  [16:17:42.576] getCompletionsAtPosition: isCompletionListBlocker: 0.015662001445889473
+Info 237  [16:17:42.576] Returning an empty list because completion was requested in an invalid position.
+Info 238  [16:17:42.604] getCompletionData: Get current token: 0.006784001365303993
+Info 239  [16:17:42.604] getCompletionData: Is inside comment: 0.0019639991223812103
+Info 240  [16:17:42.604] getCompletionData: Get previous token: 0.012683998793363571
+Info 241  [16:17:42.604] getCompletionsAtPosition: isCompletionListBlocker: 0.012594999745488167
+Info 242  [16:17:42.604] Returning an empty list because completion was requested in an invalid position.
+Info 243  [16:17:42.605] getCompletionData: Get current token: 0.00815499946475029
+Info 244  [16:17:42.605] getCompletionData: Is inside comment: 0.0026030000299215317
+Info 245  [16:17:42.605] getCompletionData: Get previous token: 0.015289999544620514
+Info 246  [16:17:42.605] getCompletionsAtPosition: isCompletionListBlocker: 0.006663000211119652
+Info 247  [16:17:42.605] Returning an empty list because completion was requested in an invalid position.
+Info 248  [16:17:42.605] getCompletionData: Get current token: 0.005508000031113625
+Info 249  [16:17:42.605] getCompletionData: Is inside comment: 0.001346999779343605
+Info 250  [16:17:42.605] getCompletionData: Get previous token: 0.01003200002014637
+Info 251  [16:17:42.605] getCompletionsAtPosition: isCompletionListBlocker: 0.003205999732017517
+Info 252  [16:17:42.605] Returning an empty list because completion was requested in an invalid position.
+Info 253  [16:17:42.608] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 254  [16:17:42.612] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 29 structureChanged: false structureIsReused:: Completely Elapsed: 3.6398740001022816ms
+Info 255  [16:17:42.612] Different program with same set of files
+Info 256  [16:17:42.794] getCompletionData: Get current token: 0.03264000080525875
+Info 257  [16:17:42.794] getCompletionData: Is inside comment: 0.007156999781727791
+Info 258  [16:17:42.794] getCompletionData: Get previous token: 0.06561700068414211
+Info 259  [16:17:42.796] getCompletionsAtPosition: isCompletionListBlocker: 1.024915000423789
+Info 260  [16:17:42.796] Returning an empty list because completion was requested in an invalid position.
+Info 261  [16:17:42.798] getCompletionData: Get current token: 0.03608900122344494
+Info 262  [16:17:42.798] getCompletionData: Is inside comment: 0.01100900024175644
+Info 263  [16:17:42.798] getCompletionData: Get previous token: 0.07059100084006786
+Info 264  [16:17:42.798] getCompletionsAtPosition: isCompletionListBlocker: 0.02964100055396557
+Info 265  [16:17:42.798] Returning an empty list because completion was requested in an invalid position.
+Info 266  [16:17:42.799] getCompletionData: Get current token: 0.03793199919164181
+Info 267  [16:17:42.799] getCompletionData: Is inside comment: 0.009352000430226326
+Info 268  [16:17:42.799] getCompletionData: Get previous token: 0.06564600020647049
+Info 269  [16:17:42.799] getCompletionsAtPosition: isCompletionListBlocker: 0.01830100081861019
+Info 270  [16:17:42.799] Returning an empty list because completion was requested in an invalid position.
+Info 271  [16:17:42.799] getCompletionData: Get current token: 0.0359519999474287
+Info 272  [16:17:42.799] getCompletionData: Is inside comment: 0.008948000147938728
+Info 273  [16:17:42.800] getCompletionData: Get previous token: 0.06528099998831749
+Info 274  [16:17:42.800] getCompletionsAtPosition: isCompletionListBlocker: 0.014232000336050987
+Info 275  [16:17:42.800] Returning an empty list because completion was requested in an invalid position.
+Info 276  [16:17:43.005] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 277  [16:17:43.009] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 30 structureChanged: false structureIsReused:: Completely Elapsed: 4.8021619990468025ms
+Info 278  [16:17:43.010] Different program with same set of files
+Info 279  [16:17:43.010] getCompletionData: Get current token: 0.01955599896609783
+Info 280  [16:17:43.010] getCompletionData: Is inside comment: 0.004768999293446541
+Info 281  [16:17:43.010] getCompletionData: Get previous token: 0.036212000995874405
+Info 282  [16:17:43.010] getCompletionsAtPosition: isCompletionListBlocker: 0.022165000438690186
+Info 283  [16:17:43.010] Returning an empty list because completion was requested in an invalid position.
+Info 284  [16:17:43.049] getCompletionData: Get current token: 0.007844999432563782
+Info 285  [16:17:43.049] getCompletionData: Is inside comment: 0.0018440000712871552
+Info 286  [16:17:43.049] getCompletionData: Get previous token: 0.012621000409126282
+Info 287  [16:17:43.049] getCompletionsAtPosition: isCompletionListBlocker: 0.008666999638080597
+Info 288  [16:17:43.049] Returning an empty list because completion was requested in an invalid position.
+Info 289  [16:17:43.051] getCompletionData: Get current token: 0.006541000679135323
+Info 290  [16:17:43.051] getCompletionData: Is inside comment: 0.0019380003213882446
+Info 291  [16:17:43.051] getCompletionData: Get previous token: 0.011893998831510544
+Info 292  [16:17:43.051] getCompletionsAtPosition: isCompletionListBlocker: 0.007843000814318657
+Info 293  [16:17:43.051] Returning an empty list because completion was requested in an invalid position.
+Info 294  [16:17:43.052] getCompletionData: Get current token: 0.006634999066591263
+Info 295  [16:17:43.052] getCompletionData: Is inside comment: 0.0015839990228414536
+Info 296  [16:17:43.052] getCompletionData: Get previous token: 0.010673999786376953
+Info 297  [16:17:43.052] getCompletionsAtPosition: isCompletionListBlocker: 0.006575999781489372
+Info 298  [16:17:43.052] Returning an empty list because completion was requested in an invalid position.
+Info 299  [16:17:43.290] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 300  [16:17:43.298] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 31 structureChanged: false structureIsReused:: Completely Elapsed: 8.661969000473619ms
+Info 301  [16:17:43.298] Different program with same set of files
+Info 302  [16:17:43.300] getCompletionData: Get current token: 0.030045999214053154
+Info 303  [16:17:43.300] getCompletionData: Is inside comment: 0.007706001400947571
+Info 304  [16:17:43.300] getCompletionData: Get previous token: 0.053286999464035034
+Info 305  [16:17:43.300] getCompletionsAtPosition: isCompletionListBlocker: 0.022687001153826714
+Info 306  [16:17:43.300] Returning an empty list because completion was requested in an invalid position.
+Info 307  [16:17:43.337] getCompletionData: Get current token: 0.011997999623417854
+Info 308  [16:17:43.337] getCompletionData: Is inside comment: 0.003072001039981842
+Info 309  [16:17:43.337] getCompletionData: Get previous token: 0.020212000235915184
+Info 310  [16:17:43.337] getCompletionsAtPosition: isCompletionListBlocker: 0.011264998465776443
+Info 311  [16:17:43.337] Returning an empty list because completion was requested in an invalid position.
+Info 312  [16:17:43.338] getCompletionData: Get current token: 0.006842000409960747
+Info 313  [16:17:43.338] getCompletionData: Is inside comment: 0.0016109999269247055
+Info 314  [16:17:43.338] getCompletionData: Get previous token: 0.01179100014269352
+Info 315  [16:17:43.338] getCompletionsAtPosition: isCompletionListBlocker: 0.007510000839829445
+Info 316  [16:17:43.338] Returning an empty list because completion was requested in an invalid position.
+Info 317  [16:17:43.361] getCompletionData: Get current token: 0.015276001766324043
+Info 318  [16:17:43.361] getCompletionData: Is inside comment: 0.0036970004439353943
+Info 319  [16:17:43.361] getCompletionData: Get previous token: 0.025515999644994736
+Info 320  [16:17:43.361] getCompletionsAtPosition: isCompletionListBlocker: 0.017363999038934708
+Info 321  [16:17:43.361] Returning an empty list because completion was requested in an invalid position.
+Info 322  [16:17:43.576] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 323  [16:17:43.584] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 32 structureChanged: false structureIsReused:: Completely Elapsed: 7.844668000936508ms
+Info 324  [16:17:43.584] Different program with same set of files
+Info 325  [16:17:43.585] getCompletionData: Get current token: 0.012038998305797577
+Info 326  [16:17:43.585] getCompletionData: Is inside comment: 0.005320999771356583
+Info 327  [16:17:43.585] getCompletionData: Get previous token: 0.02289699949324131
+Info 328  [16:17:43.585] getCompletionsAtPosition: isCompletionListBlocker: 0.06134900078177452
+Info 329  [16:17:43.585] Returning an empty list because completion was requested in an invalid position.
+Info 330  [16:17:43.619] getCompletionData: Get current token: 0.007222998887300491
+Info 331  [16:17:43.619] getCompletionData: Is inside comment: 0.0017559994012117386
+Info 332  [16:17:43.619] getCompletionData: Get previous token: 0.011508001014590263
+Info 333  [16:17:43.619] getCompletionsAtPosition: isCompletionListBlocker: 0.008015001192688942
+Info 334  [16:17:43.619] Returning an empty list because completion was requested in an invalid position.
+Info 335  [16:17:43.620] getCompletionData: Get current token: 0.007482999935746193
+Info 336  [16:17:43.620] getCompletionData: Is inside comment: 0.0016179997473955154
+Info 337  [16:17:43.620] getCompletionData: Get previous token: 0.012066999450325966
+Info 338  [16:17:43.620] getCompletionsAtPosition: isCompletionListBlocker: 0.015215998515486717
+Info 339  [16:17:43.620] Returning an empty list because completion was requested in an invalid position.
+Info 340  [16:17:43.621] getCompletionData: Get current token: 0.006439000368118286
+Info 341  [16:17:43.621] getCompletionData: Is inside comment: 0.0015469994395971298
+Info 342  [16:17:43.621] getCompletionData: Get previous token: 0.010804001241922379
+Info 343  [16:17:43.621] getCompletionsAtPosition: isCompletionListBlocker: 0.006620001047849655
+Info 344  [16:17:43.621] Returning an empty list because completion was requested in an invalid position.
+Info 345  [16:17:44.222] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 346  [16:17:44.232] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 33 structureChanged: false structureIsReused:: Completely Elapsed: 9.852542001754045ms
+Info 347  [16:17:44.232] Different program with same set of files
+Info 348  [16:17:44.233] getCompletionData: Get current token: 0.022205999121069908
+Info 349  [16:17:44.233] getCompletionData: Is inside comment: 0.003227999433875084
+Info 350  [16:17:44.233] getCompletionData: Get previous token: 0.04762200079858303
+Info 351  [16:17:44.233] getCompletionsAtPosition: isCompletionListBlocker: 0.01739399880170822
+Info 352  [16:17:44.233] Returning an empty list because completion was requested in an invalid position.
+Info 353  [16:17:44.277] getCompletionData: Get current token: 0.010990999639034271
+Info 354  [16:17:44.277] getCompletionData: Is inside comment: 0.0020759999752044678
+Info 355  [16:17:44.277] getCompletionData: Get previous token: 0.017315000295639038
+Info 356  [16:17:44.277] getCompletionsAtPosition: isCompletionListBlocker: 0.008744999766349792
+Info 357  [16:17:44.277] Returning an empty list because completion was requested in an invalid position.
+Info 358  [16:17:44.278] getCompletionData: Get current token: 0.009272001683712006
+Info 359  [16:17:44.278] getCompletionData: Is inside comment: 0.0016620010137557983
+Info 360  [16:17:44.278] getCompletionData: Get previous token: 0.015616999939084053
+Info 361  [16:17:44.278] getCompletionsAtPosition: isCompletionListBlocker: 0.007374001666903496
+Info 362  [16:17:44.278] Returning an empty list because completion was requested in an invalid position.
+Info 363  [16:17:44.279] getCompletionData: Get current token: 0.009723998606204987
+Info 364  [16:17:44.279] getCompletionData: Is inside comment: 0.0015569999814033508
+Info 365  [16:17:44.279] getCompletionData: Get previous token: 0.015684999525547028
+Info 366  [16:17:44.279] getCompletionsAtPosition: isCompletionListBlocker: 0.005604000762104988
+Info 367  [16:17:44.279] Returning an empty list because completion was requested in an invalid position.
+Info 368  [16:17:44.526] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 369  [16:17:44.531] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 34 structureChanged: false structureIsReused:: Completely Elapsed: 4.874826999381185ms
+Info 370  [16:17:44.531] Different program with same set of files
+Info 371  [16:17:44.532] getCompletionData: Get current token: 0.01662300154566765
+Info 372  [16:17:44.532] getCompletionData: Is inside comment: 0.004102999344468117
+Info 373  [16:17:44.532] getCompletionData: Get previous token: 0.03022800013422966
+Info 374  [16:17:44.532] getCompletionsAtPosition: isCompletionListBlocker: 0.016090000048279762
+Info 375  [16:17:44.532] Returning an empty list because completion was requested in an invalid position.
+Info 376  [16:17:44.571] getCompletionData: Get current token: 0.007546000182628632
+Info 377  [16:17:44.571] getCompletionData: Is inside comment: 0.0017649997025728226
+Info 378  [16:17:44.571] getCompletionData: Get previous token: 0.012398999184370041
+Info 379  [16:17:44.571] getCompletionsAtPosition: isCompletionListBlocker: 0.008174000307917595
+Info 380  [16:17:44.571] Returning an empty list because completion was requested in an invalid position.
+Info 381  [16:17:44.575] getCompletionData: Get current token: 0.007859999313950539
+Info 382  [16:17:44.575] getCompletionData: Is inside comment: 0.002042001113295555
+Info 383  [16:17:44.575] getCompletionData: Get previous token: 0.014009999111294746
+Info 384  [16:17:44.575] getCompletionsAtPosition: isCompletionListBlocker: 0.012829998508095741
+Info 385  [16:17:44.575] Returning an empty list because completion was requested in an invalid position.
+Info 386  [16:17:44.577] getCompletionData: Get current token: 0.00692799873650074
+Info 387  [16:17:44.577] getCompletionData: Is inside comment: 0.0018050000071525574
+Info 388  [16:17:44.577] getCompletionData: Get previous token: 0.012050999328494072
+Info 389  [16:17:44.577] getCompletionsAtPosition: isCompletionListBlocker: 0.007027000188827515
+Info 390  [16:17:44.577] Returning an empty list because completion was requested in an invalid position.

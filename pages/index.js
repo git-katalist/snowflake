@@ -1,3 +1,3 @@
 export default function Home() {
-  return <div>Hello World!!From Tsotetsi</div>;
+  return <div>We have a stank in the environment</div>;
 }
