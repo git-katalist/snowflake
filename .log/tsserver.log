@@ -1,0 +1,152 @@
+Info 0    [15:52:51.185] Starting TS Server
+Info 1    [15:52:51.185] Version: 4.7.4
+Info 2    [15:52:51.185] Arguments: /usr/bin/node /home/tsotetsi/Projects/Code/Sandbox/snowflake/node_modules/typescript/lib/tsserver.js --logFile /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/b96fa666dd056bf848d8c04856bb1c2b/tscancellation*
+Info 3    [15:52:51.185] Platform: linux NodeVersion: 18 CaseSensitive: true
+Info 4    [15:52:51.185] ServerMode: undefined syntaxOnly: false hasUnknownServerMode: undefined
+Info 5    [15:52:51.195] Format host information updated
+Info 6    [15:52:51.202] Search path: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages
+Info 7    [15:52:51.202] For info: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js :: Config file name: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 8    [15:52:51.202] Creating configuration project /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 9    [15:52:51.215] Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json : {
+ "rootNames": [
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/next.config.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/api/hello.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/styles/Global.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/styles/Theme.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "baseUrl": "/home/tsotetsi/Projects/Code/Sandbox/snowflake",
+  "paths": {
+   "@Components/*": [
+    "./components/*"
+   ],
+   "Recipes/*": [
+    "./pages/noodles/recipes/*"
+   ],
+   "Styles/*": [
+    "./Styles/*"
+   ]
+  },
+  "pathsBasePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake",
+  "configFilePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json"
+ }
+}
+Info 10   [15:52:51.321] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 11   [15:52:52.352] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 1030.297334998846ms
+Info 12   [15:52:52.352] Project '/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json' (Configured)
+Info 13   [15:52:52.352] 	Files (190)
+
+Info 14   [15:52:52.352] -----------------------------------------------
+Info 15   [15:52:52.359] AutoImportProviderProject: found 1 root files in 1 dependencies in 5.376127000898123 ms
+Info 16   [15:52:52.360] Starting updateGraphWorker: Project: /dev/null/autoImportProviderProject1*
+Info 17   [15:52:52.365] Finishing updateGraphWorker: Project: /dev/null/autoImportProviderProject1* Version: 1 structureChanged: true structureIsReused:: Not Elapsed: 4.998795999214053ms
+Info 18   [15:52:52.365] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 19   [15:52:52.365] 	Files (6)
+
+Info 20   [15:52:52.365] -----------------------------------------------
+Info 21   [15:52:53.411] DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-170307.log 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Wild card directory
+Info 22   [15:52:53.412] Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Detected file add/remove of non supported extension: /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-170307.log
+Info 23   [15:52:53.412] Elapsed:: 1.010802999138832ms DirectoryWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/.log/ti-170307.log 0:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake 1 undefined Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Wild card directory
+Info 24   [15:52:58.591] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 25   [15:52:58.591] Elapsed:: 0.17613600008189678ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 26   [15:52:58.591] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 27   [15:52:58.591] Elapsed:: 0.01941700093448162ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry :: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 28   [15:53:00.687] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 29   [15:53:00.768] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 2 structureChanged: true structureIsReused:: Not Elapsed: 80.88023700006306ms
+Info 30   [15:53:00.768] Project '/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json' (Configured)
+Info 31   [15:53:00.768] 	Files (196)
+
+Info 32   [15:53:00.768] -----------------------------------------------
+Info 33   [15:53:00.768] Project '/dev/null/autoImportProviderProject1*' (AutoImportProvider)
+Info 34   [15:53:00.768] 	Files (6)
+
+Info 35   [15:53:00.768] -----------------------------------------------
+Info 36   [15:53:01.305] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 37   [15:53:01.305] Elapsed:: 0.0975940003991127ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 38   [15:53:01.305] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 39   [15:53:01.306] Elapsed:: 0.09874100051820278ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 40   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 41   [15:53:01.306] Elapsed:: 0.07106900028884411ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 42   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 43   [15:53:01.306] Elapsed:: 0.025547999888658524ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 44   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 45   [15:53:01.306] Elapsed:: 0.3019719999283552ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 46   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 47   [15:53:01.306] Elapsed:: 0.06431400030851364ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Failed Lookup Locations
+Info 48   [15:53:01.306] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 49   [15:53:01.307] Elapsed:: 0.21066300012171268ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 0:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 50   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 51   [15:53:01.307] Elapsed:: 0.028020000085234642ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 1:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 52   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 53   [15:53:01.307] Elapsed:: 0.01862100139260292ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry 2:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 54   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 55   [15:53:01.307] Elapsed:: 0.015272000804543495ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/README.md 3:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 56   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 57   [15:53:01.307] Elapsed:: 0.02241400070488453ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/index.json 4:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 58   [15:53:01.307] DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 59   [15:53:01.307] Elapsed:: 0.015528999269008636ms DirectoryWatcher:: Triggered with /home/tsotetsi/.cache/typescript/4.7/node_modules/types-registry/package.json 5:: WatchInfo: /home/tsotetsi/.cache/typescript/4.7/node_modules 1 undefined Project: /dev/null/autoImportProviderProject1* WatchType: Failed Lookup Locations
+Info 60   [15:53:02.937] Before ensureProjectForOpenFiles:
+Info 61   [15:53:02.938] After ensureProjectForOpenFiles:
+Info 62   [15:53:02.938] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
+Info 63   [15:53:53.230] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 500 undefined WatchType: Closed Script info
+Info 64   [15:53:53.231] Elapsed:: 0.5845229998230934ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js 500 undefined WatchType: Closed Script info
+Info 65   [15:53:53.482] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 66   [15:53:53.484] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 3 structureChanged: false structureIsReused:: Not Elapsed: 2.4635680001229048ms
+Info 67   [15:53:55.732] Before ensureProjectForOpenFiles:
+Info 68   [15:53:55.732] After ensureProjectForOpenFiles:
+Info 69   [15:53:55.732] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
+Info 70   [15:54:05.237] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 500 undefined WatchType: Closed Script info
+Info 71   [15:54:05.237] Elapsed:: 0.11315099895000458ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js 500 undefined WatchType: Closed Script info
+Info 72   [15:54:05.487] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 73   [15:54:05.488] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 4 structureChanged: false structureIsReused:: Not Elapsed: 0.7509369999170303ms
+Info 74   [15:54:07.738] Before ensureProjectForOpenFiles:
+Info 75   [15:54:07.738] After ensureProjectForOpenFiles:
+Info 76   [15:54:07.738] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
+Info 77   [15:54:15.240] FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 2000 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Config file
+Info 78   [15:54:15.241] Elapsed:: 0.9535949993878603ms FileWatcher:: Triggered with /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 1:: WatchInfo: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json 2000 undefined Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json WatchType: Config file
+Info 79   [15:54:15.492] Reloading configured project /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 80   [15:54:15.498] Config: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json : {
+ "rootNames": [
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/next.config.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_app.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/_document.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/api/hello.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/styles/Global.js",
+  "/home/tsotetsi/Projects/Code/Sandbox/snowflake/styles/Theme.js"
+ ],
+ "options": {
+  "allowJs": true,
+  "maxNodeModuleJsDepth": 2,
+  "allowSyntheticDefaultImports": true,
+  "skipLibCheck": true,
+  "noEmit": true,
+  "baseUrl": "/home/tsotetsi/Projects/Code/Sandbox/snowflake",
+  "paths": {
+   "@Components/*": [
+    "./components/*"
+   ],
+   "Recipes/*": [
+    "./pages/noodles/recipes/*"
+   ],
+   "Styles/*": [
+    "./Styles/*"
+   ]
+  },
+  "pathsBasePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake",
+  "configFilePath": "/home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json"
+ }
+}
+Info 81   [15:54:15.500] Starting updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json
+Info 82   [15:54:15.500] Finishing updateGraphWorker: Project: /home/tsotetsi/Projects/Code/Sandbox/snowflake/jsconfig.json Version: 5 structureChanged: false structureIsReused:: Not Elapsed: 0.4282230008393526ms
+Info 83   [15:54:17.742] Before ensureProjectForOpenFiles:
+Info 84   [15:54:17.743] After ensureProjectForOpenFiles:
+Info 85   [15:54:17.743] got projects updated in background, updating diagnostics for /home/tsotetsi/Projects/Code/Sandbox/snowflake/pages/index.js
